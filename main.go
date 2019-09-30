@@ -14,7 +14,6 @@ import(
     "net/http"
     "golang.org/x/oauth2"
     "encoding/json"
-
 )
 func main(){
 	bot , err := tgbotapi.NewBotAPI("your awesome key comes here")
